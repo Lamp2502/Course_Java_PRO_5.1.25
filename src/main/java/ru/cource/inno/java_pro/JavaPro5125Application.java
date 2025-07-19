@@ -1,4 +1,4 @@
-package ru.cource.inno.java_pro_5_1_25;
+package ru.cource.inno.java_pro;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
