@@ -1,0 +1,7 @@
+server:
+  port: 8082
+products:
+  base-url: http://localhost:8081
+logging:
+  level:
+    ru.cource.inno.java_pro.payments: DEBUG
