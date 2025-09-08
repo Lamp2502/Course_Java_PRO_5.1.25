@@ -1,0 +1,5 @@
+server: { port: 8083 }
+spring:
+  datasource: { url: jdbc:postgresql://localhost:5432/demo, username: demo, password: demo }
+  liquibase: { change-log: classpath:db/changelog/0001-create-user-limits.sql }
+  task: { scheduling: { time-zone: Europe/Vienna } }
